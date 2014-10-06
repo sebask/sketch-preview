@@ -54,11 +54,11 @@ function isSupportedVersion() {
 
 function Config() {
 
-  this.PREVIEW_SIZE_LABELS = ["default", "0.5x", "1x", "1.5x", "2x", "3x"]
+  this.PREVIEW_SIZE_LABELS = ["default", "0.5x", "0.6666666667x", "1x", "1.5x", "2x", "3x"]
 
   var PREVIEW_DIRECTORY_NAME = "com.marcisme.sketch-preview"
   var CONFIG_FILE_NAME = "/config.plist"
-  var PREVIEW_SIZES = [0.5, 1.0, 1.5, 2.0, 3.0]
+  var PREVIEW_SIZES = [0.5, 0.6666666667, 1.0, 1.5, 2.0, 3.0]
   var configDictionary = loadConfigDictionary()
   var PREVIEW_SIZE_INDEX_KEY = "previewSizeIndex"
 
